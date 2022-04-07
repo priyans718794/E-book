@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url(img/23.jpg);
+    height: 16vh;
+    background-size: cover;
+    background-position: center;    
+}
+.main{
+    max-width: 1700px;
+    padding: 40px;
+    margin: auto;
+}
+h1{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.x{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    padding: 200px;
+}
+.button{
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px white;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 35px;
+}
+.btn:hover{
+    background-color: #ACABAC;
+    color: black;
+}
+.y{
+    margin-left: 35%;
+    padding: 250px;
+}
+.content{
+    background: white;
+    padding: 1.5rem;
+}
+.content h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+.content .price{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-top: 1rem;
+}
+.content .price span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-decoration: line-through;
+}
